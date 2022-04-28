@@ -9,7 +9,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: teal;
+  background-color: darkolivegreen;
   color: #ffffff;
   padding: 3vh;
 }
@@ -20,8 +20,21 @@ time {
 }
 
 /* main styles */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* button styles */
+.button {
+  display: block;
+  color: white;
+  background-color: darkolivegreen;
+  padding: 2vh;
+  border-radius: 8px;
+  border: none;
+}
 
 /* card styles */
 
