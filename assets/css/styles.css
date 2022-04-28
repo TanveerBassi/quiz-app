@@ -1,8 +1,23 @@
 /* style body */
+body {
+  font-family: Verdana;
+  background-color: white;
+  margin: 0px;
+}
 
 /* heading styles here */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: teal;
+  color: #ffffff;
+  padding: 3vh;
+}
 
 /* time section to be added later - including min-width */
+time {
+  min-width: 85px;
+}
 
 /* main styles */
 
