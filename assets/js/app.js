@@ -56,3 +56,8 @@ function hideCards() {
 
 const resultDiv = document.querySelector("#result-div");
 const resultText = document.querySelector("#result-text");
+
+//hide result div
+function hideResultText() {
+  resultDiv.style.display = "none";
+}
