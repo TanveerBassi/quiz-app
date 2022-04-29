@@ -61,3 +61,15 @@ const resultText = document.querySelector("#result-text");
 function hideResultText() {
   resultDiv.style.display = "none";
 }
+
+//these variables are required globally
+var intervalID;
+var time;
+var currentQuestion;
+
+document.querySelector("#start-button").addEventListener("click", startQuiz);
+
+function startQuiz() {
+  //hide any visible cards, show the question card
+  hideCards();
+  questionCard.removeAttribute("hidden");
