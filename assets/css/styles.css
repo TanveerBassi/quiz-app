@@ -75,5 +75,29 @@ main {
 }
 
 /* leaderboard styles */
+#back-button {
+  margin-right: 8px;
+}
+
+.highscore-list {
+  padding-inline-start: 20px;
+}
 
 /* media queries */
+@media screen and (min-width: 850px) {
+  .card {
+    max-width: 680px;
+  }
+}
+
+/* Media query that specifies devices that can utilize hover */
+@media (hover) {
+  /* Stylings pertaining to hover pseudo-class*/
+  a:hover {
+    color: #cbe1e0;
+  }
+
+  button:hover {
+    background-color: rgba(33, 131, 127, 0.5);
+  }
+}
