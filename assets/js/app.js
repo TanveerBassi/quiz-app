@@ -39,3 +39,20 @@ const questions = [
     answer: "1. break",
   },
 ];
+
+//select each card div by id and assign to variables
+const startCard = document.querySelector("#start-card");
+const questionCard = document.querySelector("#question-card");
+const scoreCard = document.querySelector("#score-card");
+const leaderboardCard = document.querySelector("#leaderboard-card");
+
+//hide all cards
+function hideCards() {
+  startCard.setAttribute("hidden", true);
+  questionCard.setAttribute("hidden", true);
+  scoreCard.setAttribute("hidden", true);
+  leaderboardCard.setAttribute("hidden", true);
+}
+
+const resultDiv = document.querySelector("#result-div");
+const resultText = document.querySelector("#result-text");
