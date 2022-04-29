@@ -37,10 +37,29 @@ main {
 }
 
 /* card styles */
+.card {
+  max-width: 80%;
+  margin-top: 15vh;
+  border: solid;
+  border-width: 2px;
+  padding: 5vw;
+  border-radius: 30px;
+  border-color: lightgray;
+  box-shadow: 10px 5px 5px lightgray;
+}
 
 /* start card styles */
+#start-screen {
+  display: inline;
+  text-align: center;
+}
 
 /* question card styles */
+.option-button {
+  width: 100%;
+  text-align: left;
+  margin: 5px;
+}
 
 /* score card styles */
 
