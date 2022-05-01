@@ -22,10 +22,10 @@ Link to URL [link](https://tanveerbassi.github.io/quiz-app/ "Live URL").
 
 # Screenshot of the project
 
-![image of when user first clicks on URL](assets\images\start-screen.png)
+![image of when user first clicks on URL](./assets/images/start-screen.png)
 
-![image of when user has pressed start quiz - first question](assets\images\questions.png)
+![image of when user has pressed start quiz - first question](./assets/images/questions.png)
 
-![prompt to enter initials](assets\images\score.png)
+![prompt to enter initials](./assets/images/score.png)
 
-![high scores screen](assets\images\highscores.png)
+![high scores screen](./assets/images/highscores.png)
