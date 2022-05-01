@@ -158,3 +158,14 @@ function checkAnswer(eventObject) {
     endQuiz();
   }
 }
+
+//display scorecard and hide other divs
+const score = document.querySelector("#score");
+
+//at end of quiz, clear the timer, hide any visible cards and display the scorecard and display the score as the remaining time
+function endQuiz() {
+  clearInterval(intervalID);
+  hideCards();
+  scoreCard.removeAttribute("hidden");
+  score.textContent = time;
+}
