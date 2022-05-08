@@ -1,0 +1,103 @@
+/* style body */
+body {
+  font-family: Verdana;
+  background-color: white;
+  margin: 0px;
+}
+
+/* heading styles here */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: darkolivegreen;
+  color: #ffffff;
+  padding: 3vh;
+}
+
+/* time section to be added later - including min-width */
+time {
+  min-width: 85px;
+}
+
+/* main styles */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* button styles */
+.button {
+  display: block;
+  color: white;
+  background-color: darkolivegreen;
+  padding: 2vh;
+  border-radius: 8px;
+  border: none;
+}
+
+/* card styles */
+.card {
+  max-width: 80%;
+  margin-top: 15vh;
+  border: solid;
+  border-width: 2px;
+  padding: 5vw;
+  border-radius: 30px;
+  border-color: lightgray;
+  box-shadow: 10px 5px 5px lightgray;
+}
+
+/* start card styles */
+#start-screen {
+  display: inline;
+  text-align: center;
+}
+
+/* question card styles */
+.option-button {
+  width: 100%;
+  text-align: left;
+  margin: 5px;
+}
+
+/* score card styles */
+.inline-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#initials {
+  width: 25%;
+  margin: 8px;
+  padding: 1vh;
+}
+
+/* leaderboard styles */
+#back-button {
+  margin-right: 8px;
+}
+
+.highscore-list {
+  padding-inline-start: 20px;
+}
+
+/* media queries */
+@media screen and (min-width: 850px) {
+  .card {
+    max-width: 680px;
+  }
+}
+
+/* Media query that specifies devices that can utilize hover */
+@media (hover) {
+  /* Stylings pertaining to hover pseudo-class*/
+  a:hover {
+    color: #cbe1e0;
+  }
+
+  button:hover {
+    background-color: rgba(33, 131, 127, 0.5);
+  }
+}
