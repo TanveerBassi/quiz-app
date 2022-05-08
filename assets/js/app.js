@@ -63,9 +63,9 @@ function hideResultText() {
 }
 
 //these variables are required globally
-var intervalID;
-var time;
-var currentQuestion;
+let intervalID;
+let time;
+let currentQuestion;
 
 document.querySelector("#start-button").addEventListener("click", startQuiz);
 
